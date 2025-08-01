@@ -11,7 +11,8 @@
     "install-server": "cd server && npm install",
     "install-client": "cd client && npm install",
     "install-all": "npm install && npm run install-server && npm run install-client",
-    "start": "cd server && npm start"
+    "start": "cd server && npm start",
+    "render-build": "./render-build.sh"
   },
   "keywords": [
     "assessment",
