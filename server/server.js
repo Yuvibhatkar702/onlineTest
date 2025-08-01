@@ -9,6 +9,7 @@ const { createServer } = require('http');
 const { Server } = require('socket.io');
 require('dotenv').config();
 
+// Online Test Portal - MERN Stack Application
 // Import routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
