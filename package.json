@@ -7,12 +7,12 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
-    "build": "cd client && npm run build",
+    "build": "node build.js",
     "install-server": "cd server && npm install",
     "install-client": "cd client && npm install",
     "install-all": "npm install && npm run install-server && npm run install-client",
     "start": "cd server && npm start",
-    "render-build": "./render-build.sh"
+    "render-build": "node build.js"
   },
   "keywords": [
     "assessment",
